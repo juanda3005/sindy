@@ -148,6 +148,7 @@ main .sobre-nosotros{
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin: 2px;
 }
 
 .imagen-port > img{
@@ -162,8 +163,8 @@ main .sobre-nosotros{
     width: 100%;
     height: 100%;
     top: 0;
+    border-color: #ffdde1 ;
     transform: scale(0);
-    background: hsla(273,91%,27%, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -173,6 +174,7 @@ main .sobre-nosotros{
 
 .hover-galeria img{
     width: 50px;
+    border-color: #ffdde1 ;
 }
 
 .hover-galeria p{
@@ -554,9 +556,9 @@ img.btn-whatsapp {
     color:white;
 }
 
-.contenedor .mapa{
+/*.contenedor .mapa{
     border:solid black 3px
-}
+}*/
 
 .instagram:hover { 
     
@@ -570,4 +572,14 @@ nav a:hover{
     text-decoration: none;
 }
 
+header wave{
+    background-color:#ffdde1 ;
+}
+
+
+.imagen-port:hover{
+    border: solid #ffdde1 3px;
+    transform: scale(1.06);
+    
+}
 
